@@ -1,7 +1,8 @@
 @forward 'colors';
 *,
 *::after,
-*::before {
+*::before,
+p {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -13,4 +14,10 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.6rem;
+    position: relative;
+    overflow: auto;
+}
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
