@@ -1,0 +1,74 @@
+@import 'settings';
+@import 'colors';
+.timeline-headline{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+}
+.timelineBox{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.timeline {
+	position: relative;
+	width: 90%;
+	max-width: 800px;
+}
+
+.timeline ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+    padding-left: 0px;
+}
+
+.timeline li {
+	position: relative;
+	margin-bottom: 2em;
+	padding: 2em;
+	width: 50%;
+	border: 2px solid #c6ca45;
+	border-radius: 8px;
+}
+
+.timeline li::after {
+	position: absolute;
+	top: calc(50% - 10px);
+	width: 20px;
+	height: 20px;
+	background-color: #c6ca45;
+	border-radius: 50%;
+	content: '';
+}
+
+.timeline li:nth-child(even) {
+	align-self: flex-end;
+	transform: translateX(20px);
+}
+
+.timeline li:nth-child(even)::after {
+	left: -31px;
+}
+
+.timeline li:nth-child(odd) {
+	transform: translateX(-20px);
+}
+
+.timeline li:nth-child(odd)::after {
+	right: -31px;
+}
+
+.timeline::before {
+	position: absolute;
+	top: 0;
+	transform: translateX(-50%);
+	display: block;
+    left: 50%;
+	width: 2px;
+	height: 100%;
+	background-color:#c6ca45;
+	content: '';
+}
+

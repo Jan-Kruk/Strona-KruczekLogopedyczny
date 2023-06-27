@@ -1,0 +1,35 @@
+@import 'settings';
+@import 'colors';
+.contact{
+    background-color: $main-color;
+    h2{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        letter-spacing: 0.2rem;
+        font-weight: 700;
+        color: white;
+    }
+    h3{
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        transition: transform .2s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            filter: invert(98%) sepia(0%) saturate(314%) hue-rotate(10deg) brightness(120%) contrast(100%);
+        }
+    }
+    .socials{
+        &__localisation{
+            &-mail{
+                &-icon{
+                   width: 40px;
+                }
+            }
+        }
+    }
+}

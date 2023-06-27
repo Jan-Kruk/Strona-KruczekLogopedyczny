@@ -1,0 +1,17 @@
+@import 'settings';
+@import 'colors';
+
+.aboutme{
+    &-text{
+        text-align: justify;
+        h3{
+            font-size: 2.3rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.4rem;
+        }
+    }
+    &-image{
+        border-radius: 5rem;
+    }
+}
