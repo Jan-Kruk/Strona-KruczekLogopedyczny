@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
     allNavItems.forEach(item => item.addEventListener('click', () => navList.classList.remove('show')))
 
     window.addEventListener('scroll', addShadow)
-    menuButton.addEventListener('click',() => navList.classList.toggle('show'))
+    // menuButton.addEventListener('click',() => navList.classList.toggle('show'))
 })

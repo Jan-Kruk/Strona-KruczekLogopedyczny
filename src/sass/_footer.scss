@@ -1,0 +1,17 @@
+@import 'colors';
+.blue-color{
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer {
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $text-color;
+	background-color: rgb(85, 85, 85);
+	p {
+		font-size: 1.3rem;
+	}
+}

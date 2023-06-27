@@ -1,6 +1,7 @@
 @import 'settings';
 @import 'colors';
 .contact{
+    position: relative;
     background-color: $main-color;
     h2{
         text-transform: uppercase;
@@ -32,4 +33,31 @@
             }
         }
     }
+}
+.circleBox1{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &--top{
+        top: -3rem;
+    }
+    &--bottom{
+        bottom: -5.5rem;
+    }
+    
+    z-index: 3;
+    &-circle1{
+        background-color:white;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 6rem;
+    }
+    &-circle2{
+        background-color: white;
+        height: 8rem;
+        width: 8rem;
+        border-radius: 8rem;
+    }
+  
 }
