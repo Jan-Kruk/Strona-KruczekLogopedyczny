@@ -1,0 +1,16 @@
+@import 'settings';
+@import 'colors';
+.prices{
+    &__box{
+        border: solid 0.4rem;
+        border-color: $second-color;
+        &-heading{
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        &-text{
+            font-weight: 700;
+            font-size: 1.8rem;
+        }
+    }
+}

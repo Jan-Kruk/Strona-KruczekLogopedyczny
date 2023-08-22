@@ -12,7 +12,7 @@
     color: white;
     font-size: 2.5rem;
     &:hover{
-        color: $second-color;
+        filter: invert(85%) sepia(66%) saturate(472%) hue-rotate(3deg) brightness(85%) contrast(86%);
     }
 }
 .navbar-nav .nav-link.active{
@@ -42,6 +42,9 @@ nav {
     .active {
         color: $main-color;
     }
+    .nav-item{
+        padding-right: 15px;
+    }
 }
 @media (min-width: 992px) {
     .nav-link{
@@ -53,4 +56,7 @@ nav {
         color: white;
         font-size: 4rem;
     }
+}
+.logo-img{
+    height: 50px;
 }

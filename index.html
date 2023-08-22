@@ -20,26 +20,27 @@
     
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar">
+<body>
     <nav class="navbar navbar-expand-lg  fixed-top" id="#navbar">
     <div class="container">
-      <a class="navbar-brand" href="#home">Kruczeklogopedyczny</a>
+      <a class="navbar-brand" href="#home"><img class="logo-img" src="./dist/img/logo-white.png" alt="">Kruczeklogopedyczny</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#offer">Oferta</a>
           </li>
+          
           <li class="nav-item">
             <a class="nav-link" href="#aboutme">O mnie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#office">Gabinet</a>
+            <a class="nav-link" href="#prices">Cennik</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Kontakt</a>
@@ -55,7 +56,7 @@
             <h1>
                 <span>Karolina Kruk</span>
                 <span>Logopeda</span>
-                <span>#kruczeklogopedyczny</span>
+                <span><img class="text-image" src="../dist/img/logo-black.png" alt="">kruczeklogopedyczny</span>
             </h1>
         </div>
         
@@ -81,21 +82,21 @@
             <a href="#contact"><button type ="button" class="offer__box-description-appoint offer__box-description-appoint--first-color" >umów się</button></a>
         </div>
     </div>
-    <img src="./dist/img/Hero-img.jpg" alt="" class="offer__imgBox col-lg-5 h-100 align-self-center">
+    <img src="./dist/img/blocks.jpg" alt="dwa zbudowane domki z klocków" class="offer__imgBox col-lg-5 h-100 align-self-center">
 </div>
 <!-- second -->
 <div class="row justify-content-center justify-content-lg-evenly">
-    <img src="./dist/img/Hero-img.jpg" alt="" class="offer__imgBox col-lg-5 h-100 align-self-center">
+    <img src="./dist/img/toys.jpg" alt="" class="offer__imgBox col-lg-5 h-100 align-self-center">
     <div class="offer__box col-lg-5 col-11 offer__box--second-color">
         <h3 class="offer__box-title text-center">Terapia logopedyczna</h3>
         <p class="offer__box-text ">Jeżeli Twoje dziecko wykazuje trudności
             w rozwoju językowym, ma opóźniony/zaburzony rozwój mowy i/lub wymowy, potrzebuje wsparcia ze strony terapeuty, ma trudności w zakresie rozwoju językowego, nauki czytania i funkcji poznawczych, zdiagnozowaną dysleksję lub jest w grupie ryzyka dysleksji. Zapraszam na indywidualne zajęcia logopedyczne. </p>
         <div class="offer__box-description d-flex justify-content-between">
             <div class="offer__box-description-time d-flex" >
-                <img class="offer__box-description-time-icon"src="./dist/img/icons/clock.svg" alt="">
+                <img class="offer__box-description-time-icon"src="./dist/img/icons/clock.svg" alt="dużo rozłożonych zabawek na stole">
                 <p class="offer__box-description-time-text">50min</p>
             </div>
-            <button type ="button" class="offer__box-description-appoint offer__box-description-appoint--second-color">umów się</button>
+            <a href="#contact"><button type ="button" class="offer__box-description-appoint offer__box-description-appoint--first-color" >umów się</button></a>
         </div>
     </div>
     
@@ -112,15 +113,16 @@
                 <img class="offer__box-description-time-icon"src="./dist/img/icons/clock.svg" alt="">
                 <p class="offer__box-description-time-text">50min</p>
             </div>
-            <button type ="button" class="offer__box-description-appoint offer__box-description-appoint--third-color">umów się</button>
+            <a href="#contact"><button type ="button" class="offer__box-description-appoint offer__box-description-appoint--first-color" >umów się</button></a>
         </div>
     </div>
-    <img src="./dist/img/Hero-img.jpg" alt="" class="offer__imgBox col-lg-5 h-100 align-self-center">
+    <img src="./dist/img/kid-tower.jpg" alt="dziecko układające wieże z klocków" class="offer__imgBox col-lg-5 h-100 align-self-center">
     
 </div>
 
 </div>
 </section>
+ 
      <section id="aboutme">
         <div class="container">
 <div class="amBox">
@@ -205,10 +207,11 @@
 </div></div>
 
     </section>
+   
     <section>
         <div class="container">
     <div class="amBox">
-        <h2 class="amBox-title h-100 d-flex justify-content-center align-items-center">Gabinet</h2>
+        <h2 class="amBox-title h-100 d-flex justify-content-center align-items-center">Cennik</h2>
         <div class="circleBox1 circleBox1--top">
             <div class="circleBox1-circle1 d-none d-xl-block"></div>
             <div class="circleBox1-circle2"></div>
@@ -242,36 +245,25 @@
         
     </div>
     </div>
-        <div class="container py-5 my-5 d-flex justify-content-center" id="office">
-    <div id="carouselExampleIndicators" class="carousel slide col-lg-8 ">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./dist/img/Hero-img.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./dist/img/Hero-img.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./dist/img/Hero-img.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+<div class="container">
+<div class="prices  py-5 my-5 justify-content-center justify-content-lg-evenly row text-center " id="prices">
+<div class="prices__box py-5 mb-5 mb-lg-0 text-center col-10 col-lg-3 row">
+    <p class="pb-5 prices__box-heading">Diagnoza logopedyczna</p>
+    <p class="prices__box-text">250zł</p>
 </div>
-        
+<div class="prices__box py-5 mb-5 mb-lg-0 text-center col-10 col-lg-3 row">
+    <p class="pb-5 prices__box-heading">Terapia logopedyczna</p>
+    <p class="prices__box-text">100zł</p>
+</div>
+<div class="prices__box py-5 text-center col-10 col-lg-3 row">
+    <p class="pb-5 prices__box-heading">Konsultacja logopedyczna</p>
+    <p class="prices__box-text">150zł</p>
+</div>
+</div>
+</div>
     </section>
+    
+
     <section id="contact" class="contact"> 
      <div class="circleBox1 circleBox1--top">
             <div class="circleBox1-circle1 d-none d-xl-block"></div>
@@ -297,6 +289,9 @@
                     <h3 class="text-center py-3">
                         Dane kontaktowe
                     </h3>
+                    <h4 class="text-center py-3">
+                        Logopeda Łańcut
+                    </h4>
                     <div class="socials__localisation-mail  text-center py-5">
                         <a href="mailto:kruczeklogopedyczny@gmail.com" class="row justify-content-center ">
                         <img src="./dist/img/icons/iconmonstr-email-2.svg" class="col-2 socials__localisation-mail-icon">
