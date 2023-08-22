@@ -8,11 +8,17 @@
     }
 }
 .navbar-brand{
+    img{
+        height: 30px;
+        position: relative;
+        bottom: 5px;
+    }
     font-family: 'Square Peg', cursive;
     color: white;
     font-size: 2.5rem;
     &:hover{
-        filter: invert(85%) sepia(66%) saturate(472%) hue-rotate(3deg) brightness(85%) contrast(86%);
+        filter: invert(75%) sepia(17%) saturate(1222%) hue-rotate(23deg) brightness(95%) contrast(103%);
+       
     }
 }
 .navbar-nav .nav-link.active{
@@ -55,6 +61,10 @@ nav {
         font-family: 'Square Peg', cursive;
         color: white;
         font-size: 4rem;
+        img{
+           height: 55px;
+            bottom: 10px;
+        }
     }
 }
 .logo-img{

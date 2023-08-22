@@ -28,6 +28,8 @@
 			}
 		}
         .text-image{
+            position: relative;
+            bottom: 10px;
             height: 50px;
         }
 	}
@@ -60,7 +62,8 @@
                 font-size:7rem;
             }
             .text-image{
-                height: 80px;
+                height: 100px;
+                bottom: 30px;
             }
         }
         &__button{
@@ -83,7 +86,9 @@
 			font-size: 10rem;
 		}
         .text-image{
-            height: 120px;
+            height: 140px;
+            
+            bottom: 40px;
         }
 	}
     &__button{
