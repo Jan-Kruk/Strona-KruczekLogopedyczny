@@ -1,6 +1,8 @@
 @import 'settings';
 @import 'colors';
-
+#id{
+    overflow: hidden;
+}
 .aboutme{
     &-text{
         text-align: justify;
