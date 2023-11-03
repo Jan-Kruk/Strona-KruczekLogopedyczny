@@ -17,4 +17,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('scroll', addShadow)
     // menuButton.addEventListener('click',() => navList.classList.toggle('show'))
+    AOS.init({ disable: 'mobile' })
 })
