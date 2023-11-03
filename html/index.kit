@@ -17,7 +17,7 @@
         content="Logopeda dziecięcy w Łańcucie oferujący konsultacje logopedyczną jak i stałą terapię logopedyczną">
     <link rel="icon" href="./dist/img/main-icon.png">
     <link rel="canonical" href="https://kruczeklogopedyczny.pl//">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
     
 <body>
@@ -40,6 +40,20 @@
     <!-- @include 'contact.kit' -->
     <!-- @include 'footer.kit' -->
     </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            startEvent: 'DOMContentLoaded',
+            offset: 100,
+            once: true
+
+
+        });
+    </script>
     <script src="./dist/js/main.min.js"></script>
     <script src="./dist/js/certificate.min.js"></script>
 </body>
